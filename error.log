@@ -1,0 +1,79 @@
+2024-04-25 10:12:43,531 - ERROR - Error fetching keys: 400 Client Error: Bad Request for url: https://api.lokalise.com/api2/projects/9763876266290d71498b88.53651952/keys?include_translations=1&filter_untranslated=1&page=1
+2024-04-26 12:09:59,008 - INFO - Translation updated for language 'fr': 'Bonjour le monde'
+2024-04-26 12:10:00,925 - INFO - Translation updated for language 'es': 'Hola Mundo'
+2024-04-26 12:10:02,834 - INFO - Translation updated for language 'fr': 'Bonjour mon ami !'
+2024-04-26 12:10:04,886 - INFO - Translation updated for language 'es': 'ï¿½Hola, amigo mï¿½o!'
+2024-04-26 12:10:06,990 - INFO - Translation updated for language 'fr': 'Rï¿½essayez s'il vous plaï¿½t'
+2024-04-26 12:10:09,046 - INFO - Translation updated for language 'es': 'Intï¿½ntelo de nuevo, por favor.'
+2024-04-26 12:10:11,105 - INFO - Translation updated for language 'fr': 'C'est une erreur haha'
+2024-04-26 12:10:13,023 - INFO - Translation updated for language 'es': 'Eso es un error jaja'
+2024-04-26 12:10:15,284 - INFO - Translation updated for language 'fr': 'Citï¿½ du Vatican'
+2024-04-26 12:10:17,104 - INFO - Translation updated for language 'es': 'Ciudad del Vaticano'
+2024-04-26 12:10:19,184 - INFO - Translation updated for language 'fr': 'Lituanie'
+2024-04-26 12:10:21,013 - INFO - Translation updated for language 'es': 'Lituania'
+2024-04-26 12:10:23,208 - INFO - Translation updated for language 'fr': 'Choisissez une recharge ï¿½ 29,99 ï¿½ ou 49,99 ï¿½ et obtenez une carte SIM GRATUITE*.'
+2024-04-26 12:10:25,315 - INFO - Translation updated for language 'es': 'Elige una recarga de 29,99 ï¿½ o de 49,99 ï¿½ y llï¿½vate una <span style=color:#FF4934;>tarjeta SIM</span> GRATUITA*.'
+2024-04-26 12:10:27,632 - INFO - Translation updated for language 'fr': 'Le numï¿½ro de tï¿½lï¿½phone n'est pas valide'
+2024-04-26 12:10:30,257 - INFO - Translation updated for language 'es': 'El nï¿½mero de telï¿½fono no es vï¿½lido'
+2024-04-26 12:10:32,404 - INFO - Translation updated for language 'fr': '<ul>
+<li>Inclut un crï¿½dit de 5 ï¿½</li>
+<li>1ï¿½ pour chaque 100MB dans les 24 heures</li>
+<1ï¿½ pour 60 min d'appels entrants et sortants locaux dans les 24 heures</li>
+</ul>'
+2024-04-26 12:10:34,616 - INFO - Translation updated for language 'es': '<ul>
+<li>Incluye 5ï¿½ de crï¿½dito</li>
+<li>1ï¿½ por cada 100MB en 24 horas</li>
+<li>1ï¿½ por 60 min de llamadas entrantes y salientes locales en 24 horas</li>
+</ul>'
+2024-04-26 12:10:36,846 - INFO - Translation updated for language 'fr': 'Bonjour le monde'
+2024-04-26 12:10:39,014 - INFO - Translation updated for language 'es': 'hola mundo'
+2024-04-26 12:10:41,010 - INFO - Translation updated for language 'fr': 'Bonjour'
+2024-04-26 12:10:42,960 - INFO - Translation updated for language 'es': 'hola'
+2024-04-26 17:50:16,270 - ERROR - An unexpected error occurred
+Traceback (most recent call last):
+  File "c:\Users\erics\deepl_mt_script\translate.py", line 122, in main
+    translated_text = translator.translate_text(en_translation_value, target_lang=lang_iso).text
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\erics\AppData\Roaming\Python\Python312\site-packages\deepl\translator.py", line 446, in translate_text
+    self._raise_for_status(status, content, json)
+  File "C:\Users\erics\AppData\Roaming\Python\Python312\site-packages\deepl\translator.py", line 203, in _raise_for_status
+    raise DeepLException(
+deepl.exceptions.DeepLException: Bad request, message: Value for 'target_lang' not supported.
+2024-05-02 09:10:58,942 - ERROR - An unexpected error occurred
+Traceback (most recent call last):
+  File "c:\Users\erics\deepl_mt_script\translate.py", line 122, in main
+    translated_text = translator.translate_text(en_translation_value, target_lang=lang_iso).text
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\erics\AppData\Roaming\Python\Python312\site-packages\deepl\translator.py", line 446, in translate_text
+    self._raise_for_status(status, content, json)
+  File "C:\Users\erics\AppData\Roaming\Python\Python312\site-packages\deepl\translator.py", line 203, in _raise_for_status
+    raise DeepLException(
+deepl.exceptions.DeepLException: Bad request, message: Value for 'target_lang' not supported.
+2024-05-02 09:13:24,609 - INFO - Translation updated for language 'fr': 'Bonjour le monde'
+2024-05-02 09:13:26,627 - INFO - Translation updated for language 'es': 'Hola Mundo'
+2024-05-02 09:13:28,612 - INFO - Translation updated for language 'fr': 'Bonjour mon ami !'
+2024-05-02 09:13:30,555 - INFO - Translation updated for language 'es': '¡Hola, amigo mío!'
+2024-05-02 09:13:32,427 - INFO - Translation updated for language 'fr': 'Réessayez s'il vous plaît'
+2024-05-02 09:13:34,313 - INFO - Translation updated for language 'es': 'Inténtelo de nuevo, por favor.'
+2024-05-02 09:13:36,059 - INFO - Translation updated for language 'fr': 'C'est une erreur haha'
+2024-05-02 09:13:37,807 - INFO - Translation updated for language 'es': 'Eso es un error jaja'
+2024-05-02 09:13:39,718 - INFO - Translation updated for language 'fr': 'Cité du Vatican'
+2024-05-02 09:13:41,646 - INFO - Translation updated for language 'es': 'Ciudad del Vaticano'
+2024-05-02 09:13:43,423 - INFO - Translation updated for language 'fr': 'Lituanie'
+2024-05-02 09:13:45,460 - INFO - Translation updated for language 'es': 'Lituania'
+2024-05-02 09:13:47,455 - INFO - Translation updated for language 'fr': 'Choisissez une recharge à 29,99 € ou 49,99 € et obtenez une carte SIM GRATUITE*.'
+2024-05-02 09:13:49,607 - INFO - Translation updated for language 'es': 'Elige una recarga de 29,99 € o de 49,99 € y llévate una <span style=color:#FF4934;>tarjeta SIM</span> GRATUITA*.'
+2024-05-02 09:13:51,568 - INFO - Translation updated for language 'fr': 'Le numéro de téléphone n'est pas valide'
+2024-05-02 09:13:53,509 - INFO - Translation updated for language 'es': 'El número de teléfono no es válido'
+2024-05-02 09:13:55,651 - INFO - Translation updated for language 'fr': '<ul>
+<li>Inclut un crédit de 5 €</li>
+<li>1€ pour chaque 100MB dans les 24 heures</li>
+<1€ pour 60 min d'appels entrants et sortants locaux dans les 24 heures</li>
+</ul>'
+2024-05-02 09:13:57,873 - INFO - Translation updated for language 'es': '<ul>
+<li>Incluye 5€ de crédito</li>
+<li>1€ por cada 100MB en 24 horas</li>
+<li>1€ por 60 min de llamadas entrantes y salientes locales en 24 horas</li>
+</ul>'
+2024-05-02 09:14:00,035 - INFO - Translation updated for language 'fr': 'Bonjour le monde'
+2024-05-02 09:14:02,214 - INFO - Translation updated for language 'es': 'hola mundo'
